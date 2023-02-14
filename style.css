@@ -1,27 +1,16 @@
-*{
-    border: solid thin blue;
+.color-fondo{
+    background-color: #3866B9;
 }
-body{
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 12px;
-    margin: 0;
+.color-letra{
+    color: #ffffff;
 }
-#header{
-    /*position: relative;*/
-    width: auto;
-    height: 100px;
-    background-color: darkgoldenrod;
-
+.borde{
+    border: solid black;
 }
-.right{
-    width: fit-content;
-    display: inline;
-    /*position: absolute;*/
-    float: right;
+.centrar-l{
+    text-align: center;
 }
-.left{
-    width: fit-content;
-    display: inline;
-    /*position: absolute;*/
-    float: left;
+.opcion-lista:hover{
+    background-color: #223c6d;
+    transition: 0.7s;
 }

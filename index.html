@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club de Leones</title>
-    <!--link rel="stylesheet" type="text/css" href="style.css" /-->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -29,9 +29,10 @@
         </div>
     </div>
     <!-- Menu de opciones -->
-    <div class="container mw-100 bg-warning">
+
+    <!--div class="container mw-100 color-fondo">
         <div class="row py-4 text-white fs-5">
-            <div class="col-3">
+            <div class="col-3 color-letra">
                 Logo
             </div>
             <div class="col-3">
@@ -39,11 +40,91 @@
             </div>
             <div class="col">
                 <div class="row">
-                    <div class="col">Inicio</div>
-                    <div class="col">Servicios</div>
-                    <div class="col">Actividades</div>
-                    <div class="col">Donaciones</div>
-                    <div class="col">Contacto</div>
+                    <div class="col text-center border-start border-end">Inicio</div>
+                    <div class="col text-center border-start border-end">Servicios</div>
+                    <div class="col text-center border-start border-end">Actividades</div>
+                    <div class="col text-center border-start border-end">Donaciones</div>
+                    <div class="col text-center border-start border-end">Contacto</div>
+                </div>
+            </div class="col">
+        </div>
+    </div-->
+
+    <div class="container mw-100 color-fondo">
+        <div class="row py-4 text-white fs-5">
+            <div class="col-1 color-letra d-flex justify-content-center">
+                Logo
+            </div>
+            <div class="col-3">
+                Busqueda
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="row row-cols-auto">
+                    <div class="col text-center border-start border-end">
+                        <div class="dropdown">
+                            <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Inicio
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col text-center border-start border-end">
+                        <div class="dropdown">
+                            <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col text-center border-start border-end">
+                        <div class="dropdown">
+                            <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Actividades
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col text-center border-start border-end">
+                        <div class="dropdown">
+                            <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Donaciones
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col text-center border-start border-end">
+                        <div class="dropdown">
+                            <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Contacto
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div class="col">
         </div>

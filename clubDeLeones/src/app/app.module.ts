@@ -8,6 +8,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { MainCitasComponent } from './citas/main-citas/main-citas.component';
 import { MainContactoComponent } from './contacto/main-contacto/main-contacto.component';
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
+import { PiePaginaComponent } from './shared/pie-pagina/pie-pagina.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.co
     NavbarComponent,
     MainCitasComponent,
     MainContactoComponent,
-    PaginaPrincipalComponent
+    PaginaPrincipalComponent,
+    PiePaginaComponent,
   ],
   imports: [
     BrowserModule,

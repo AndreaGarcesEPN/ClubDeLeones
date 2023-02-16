@@ -1,3 +1,20 @@
-bg-navbar {
+/* bg-navbar {
     background: #EDA415 !important;
+} */
+
+.color-fondo{
+    background-color: #3866B9;
+}
+.color-letra{
+    color: #ffffff;
+}
+.borde{
+    border: solid black;
+}
+.centrar-l{
+    text-align: center;
+}
+.opcion-lista:hover{
+    background-color: #223c6d;
+    transition: 0.7s;
 }

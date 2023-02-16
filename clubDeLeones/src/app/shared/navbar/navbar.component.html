@@ -70,20 +70,47 @@
         </div>
     </div>
 </nav> -->
+
+<!-- Info superior -->
+<div class="container mw-100 bg-white">
+    <div class="row py-2 fs-5">
+        <div class="col d-inline float-start">
+            <img src="../../../assets/shared/phone-icon.png" class="float-start f-icons" alt="Ícono de teléfono">
+            <div>(+593)2 3983390</div>
+        </div>
+        <div class="col d-inline">
+            <img src="../../../assets/shared/mail-icon.png" class="float-start f-icons me-2" alt="Ícono de correo electrónico">
+            <div class="float-start">info@leonesquitocentral.org</div>
+        </div>
+        <div class="col-3"></div>
+        <div class="col">
+            <div class="float-end">
+                <a href="https://www.facebook.com/ClinicaClubdeLeonesQC/"><img src="../../../assets/shared/facebook-icon.png" class="float-start f-icons" alt="Ir a Facebook"></a>
+                <a href="https://www.instagram.com/clubdeleonesquitocentral/"><img src="../../../assets/shared/instagram-icon.png" class="float-end f-icons" alt="Ir a Instagram"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container mw-100 color-fondo">
-    <div class="row py-4 text-white fs-5">
-        <div class="col-1 color-letra d-flex justify-content-center">
-            Logo
+    <div class="row py-1 text-white fs-5">
+        <div class="col-1 color-letra d-flex p-0 justify-content-center">
+            <img src="../../../assets/shared/logo-nt.png" class="img-prop" alt="Logotipo del club de leones">
         </div>
-        <div class="col-3">
-            Busqueda
+        <div class="col-3 position-relative">
+            <div class="input-group mb-3 position-absolute top-50 start-50 translate-middle ps-3">
+                <input type="text" class="form-control" placeholder="¿Qué quieres buscar?" 
+                alt="¿Qué quieres buscar?">
+                <button class="btn btn-buscar" type="button" id="button-addon2">Buscar</button>
+            </div>
         </div>
-        <div class="col d-flex justify-content-center">
+        <div class="col d-flex justify-content-center align-items-center">
             <div class="row row-cols-auto">
                 <div class="col text-center border-start border-end">
                     <div class="dropdown">
-                        <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"
+                            routerLink="/pagina-principal">
                             Inicio
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -95,8 +122,8 @@
                 </div>
                 <div class="col text-center border-start border-end">
                     <div class="dropdown">
-                        <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false" routerLink="citas">
+                        <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" routerLink="/citas">
                             Servicios
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -108,8 +135,8 @@
                 </div>
                 <div class="col text-center border-start border-end">
                     <div class="dropdown">
-                        <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                             Actividades
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -121,8 +148,8 @@
                 </div>
                 <div class="col text-center border-start border-end">
                     <div class="dropdown">
-                        <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                             Donaciones
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -134,8 +161,8 @@
                 </div>
                 <div class="col text-center border-start border-end">
                     <div class="dropdown">
-                        <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false" routerLink="contacto">
+                        <a class="btn text-white fs-5 opcion-lista dropdown-toggle" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" routerLink="contacto">
                             Contacto
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">

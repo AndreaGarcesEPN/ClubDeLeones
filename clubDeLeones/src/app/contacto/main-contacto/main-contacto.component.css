@@ -37,7 +37,9 @@ a:link{text-decoration:none;}
   background: rgb(255, 255, 200, 0.9);
 }
 
-
+.bg-citas {
+  background-color: #72a5c1;
+}   
 
 
 .box1 a:hover::before{

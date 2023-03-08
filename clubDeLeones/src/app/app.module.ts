@@ -9,6 +9,7 @@ import { MainCitasComponent } from './citas/main-citas/main-citas.component';
 import { MainContactoComponent } from './contacto/main-contacto/main-contacto.component';
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
 import { PiePaginaComponent } from './shared/pie-pagina/pie-pagina.component';
+import { InfoFinalComponent } from './shared/info-final/info-final.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { PiePaginaComponent } from './shared/pie-pagina/pie-pagina.component';
     MainContactoComponent,
     PaginaPrincipalComponent,
     PiePaginaComponent,
+    InfoFinalComponent,
   ],
   imports: [
     BrowserModule,

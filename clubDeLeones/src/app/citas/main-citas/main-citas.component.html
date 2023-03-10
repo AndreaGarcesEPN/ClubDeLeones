@@ -6,23 +6,33 @@
             <img src="../../../assets/citas/citas-title.png" alt="decoración título">
         </div>
     </div>
-    <div class="row container-fluid p-5 bg-citas">
-        <div class="col d-flex flex-column align-items-center  gap-4">
-            <p class="p-0 m-0 fw-bold">Número de Historia:</p>
-            <input type="text" aria-label="cuadro para ingreso de número de historia clínica"
-                class="rounded border border-5">
-            <button class="btn btn-citas mr-2 ml-2">¿Donde encuentro esta información?</button>
+    <div class="row container-fluid p-5 bg-citas" title="Formulario">
+        <form id="Formulario" class="col-12 d-flex d-sm-block flex-column" action="#" method="POST" role="form">
+            <div class="d-flex d-md-block flex-column justify-content-center">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control rounded border border-5" id="num-historia"
+                        placeholder="Número de Historia Clínica" required aria-labelledby="label-num-historia">
+                    <label for="num-historia" id="label-num-historia">Número de Historia Clínica</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control rounded border border-5" id="num-factura"
+                        placeholder="Número de Factura" required aria-labelledby="label-num-factura">
+                    <label for="num-factura" id="label-num-factura">Número de Factura</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control rounded border border-5" id="punto-emision"
+                        placeholder="Punto de Emisión" required aria-labelledby="label-punto-emision">
+                    <label for="punto-emision" id="label-punto-emision">Punto de Emisión</label>
+                </div>
+            </div>
+            <div class="col-12 text-center mt-4">
+                <button type="submit" class="btn btn-citas mr-2 ml-2">Buscar Cita</button>
+            </div>
+        </form>
+        <div class="col-12 text-center mt-5">
+            <button class="btn btn-citas" aria-label="Donde encuentro información para consultar mi cita">¿Donde encuentro esta información?</button>
         </div>
-        <div class="col d-flex flex-column align-items-center gap-4">
-            <p class="p-0 m-0 fw-bold">Número de Factura</p>
-            <input type="text" aria-label="cuadro para ingreso de número de factura" class="rounded border border-5">
-        </div>
-        <div class="col d-flex flex-column align-items-center gap-4">
-            <p class="p-0 m-0 fw-bold">Punto de Emisión</p>
-            <input type="text" aria-label="cuadro para ingreso de punto de emisión" class="rounded border border-5">
-            <button class="btn btn-citas mr-2 ml-2">Buscar</button>
-        </div>
-    </div>
+    </div>  
     <div class="row d-flex justify-content-center mt-5">
         <div class="col-8 ">
             <h4>Recomendaciones antes de realizar el proceso</h4>

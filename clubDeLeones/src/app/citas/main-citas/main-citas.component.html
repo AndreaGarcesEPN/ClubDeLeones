@@ -6,49 +6,23 @@
             <img src="../../../assets/citas/citas-title.png" alt="decoración título">
         </div>
     </div>
-    <!-- <div class="row container-fluid p-5 bg-citas">
-        <form class="col-12 d-flex d-sm-block flex-column">
-            <div class="d-flex d-md-block flex-column  justify-content-center">
-                <div>
-                    <label for="num-historia" class="text-center"> Número de Historia Clínica
-                        <input type="text" class="rounded border border-5">
-                    </label>
-                </div>
-
-                <label for="num-factura" class="text-center"> Número de Factura
-                    <input type="text" class="rounded border border-5">
-                </label>
-                <label for="punto-emisión" class="text-center"> Punto de Emisión
-                    <input type="text" class="rounded border border-5">
-                </label>
-            </div>
-            <div class="col-12 text-center mt-4" class="text-center">
-                <button type="submit" class="btn btn-citas mr-2 ml-2">Buscar</button>
-            </div>
-        </form>
-        <div class="col-12 text-center mt-4" class="text-center">
-            <button class="btn btn-citas mr-2 ml-2">¿Donde encuentro esta información ?</button>
-        </div>
-    </div> -->
-    <!-- <div class="row container-fluid bg-citas pb-4">
-    </div> -->
-    <div class="row container-fluid p-5 bg-citas">
-        <form class="col-12 d-flex d-sm-block flex-column">
+    <div class="row container-fluid p-5 bg-citas" title="Formulario">
+        <form id="Formulario" class="col-12 d-flex d-sm-block flex-column" action="#" method="POST" role="form">
             <div class="d-flex d-md-block flex-column justify-content-center">
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control rounded border border-5" id="num-historia"
-                        placeholder="Número de Historia Clínica" required>
-                    <label for="num-historia">Número de Historia Clínica</label>
+                        placeholder="Número de Historia Clínica" required aria-labelledby="label-num-historia">
+                    <label for="num-historia" id="label-num-historia">Número de Historia Clínica</label>
                 </div>
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control rounded border border-5" id="num-factura"
-                        placeholder="Número de Factura" required>
-                    <label for="num-factura">Número de Factura</label>
+                        placeholder="Número de Factura" required aria-labelledby="label-num-factura">
+                    <label for="num-factura" id="label-num-factura">Número de Factura</label>
                 </div>
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control rounded border border-5" id="punto-emision"
-                        placeholder="Punto de Emisión" required>
-                    <label for="punto-emision">Punto de Emisión</label>
+                        placeholder="Punto de Emisión" required aria-labelledby="label-punto-emision">
+                    <label for="punto-emision" id="label-punto-emision">Punto de Emisión</label>
                 </div>
             </div>
             <div class="col-12 text-center mt-4">
@@ -56,9 +30,9 @@
             </div>
         </form>
         <div class="col-12 text-center mt-5">
-            <button class="btn btn-citas">¿Donde encuentro esta información?</button>
+            <button class="btn btn-citas" aria-label="Donde encuentro información para consultar mi cita">¿Donde encuentro esta información?</button>
         </div>
-    </div>
+    </div>  
     <div class="row d-flex justify-content-center mt-5">
         <div class="col-8 ">
             <h4>Recomendaciones antes de realizar el proceso</h4>

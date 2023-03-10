@@ -6,20 +6,57 @@
             <img src="../../../assets/citas/citas-title.png" alt="decoración título">
         </div>
     </div>
-    <div class="row container-fluid p-5 bg-citas">
-        <div class="col d-flex flex-column align-items-center  gap-4">
-            <p class="p-0 m-0 fw-bold">Número de Historia:</p>
-            <input type="text"  class="rounded border border-5">
+    <!-- <div class="row container-fluid p-5 bg-citas">
+        <form class="col-12 d-flex d-sm-block flex-column">
+            <div class="d-flex d-md-block flex-column  justify-content-center">
+                <div>
+                    <label for="num-historia" class="text-center"> Número de Historia Clínica
+                        <input type="text" class="rounded border border-5">
+                    </label>
+                </div>
+
+                <label for="num-factura" class="text-center"> Número de Factura
+                    <input type="text" class="rounded border border-5">
+                </label>
+                <label for="punto-emisión" class="text-center"> Punto de Emisión
+                    <input type="text" class="rounded border border-5">
+                </label>
+            </div>
+            <div class="col-12 text-center mt-4" class="text-center">
+                <button type="submit" class="btn btn-citas mr-2 ml-2">Buscar</button>
+            </div>
+        </form>
+        <div class="col-12 text-center mt-4" class="text-center">
             <button class="btn btn-citas mr-2 ml-2">¿Donde encuentro esta información ?</button>
         </div>
-        <div class="col d-flex flex-column align-items-center gap-4">
-            <p class="p-0 m-0 fw-bold">Número de Factura</p>
-            <input type="text"  class="rounded border border-5">
-        </div>
-        <div class="col d-flex flex-column align-items-center gap-4">
-            <p class="p-0 m-0 fw-bold" >Punto de Emisión</p>
-            <input type="text"  class="rounded border border-5">
-            <button class="btn btn-citas mr-2 ml-2">Buscar</button>
+    </div> -->
+    <!-- <div class="row container-fluid bg-citas pb-4">
+    </div> -->
+    <div class="row container-fluid p-5 bg-citas">
+        <form class="col-12 d-flex d-sm-block flex-column">
+            <div class="d-flex d-md-block flex-column justify-content-center">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control rounded border border-5" id="num-historia"
+                        placeholder="Número de Historia Clínica" required>
+                    <label for="num-historia">Número de Historia Clínica</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control rounded border border-5" id="num-factura"
+                        placeholder="Número de Factura" required>
+                    <label for="num-factura">Número de Factura</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control rounded border border-5" id="punto-emision"
+                        placeholder="Punto de Emisión" required>
+                    <label for="punto-emision">Punto de Emisión</label>
+                </div>
+            </div>
+            <div class="col-12 text-center mt-4">
+                <button type="submit" class="btn btn-citas mr-2 ml-2">Buscar Cita</button>
+            </div>
+        </form>
+        <div class="col-12 text-center mt-5">
+            <button class="btn btn-citas">¿Donde encuentro esta información?</button>
         </div>
     </div>
     <div class="row d-flex justify-content-center mt-5">
@@ -27,7 +64,8 @@
             <h4>Recomendaciones antes de realizar el proceso</h4>
             <ul>
                 <li>El reagendamiento se lo puede realizar 24 horas antes de la fecha de la cita.</li>
-                <li>Para realizar el cambio de médico o especialidad, debe acercarse a “Atención al Cliente” en las instalaciones.</li>
+                <li>Para realizar el cambio de médico o especialidad, debe acercarse a “Atención al Cliente” en las
+                    instalaciones.</li>
                 <li>Se puede reagendar un turno una sola vez.</li>
                 <li>Una vez realizado el reagendamiento no se puede revertir.</li>
                 <li>El paciente se responsabiliza por el cambio realizado.</li>
